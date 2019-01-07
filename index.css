@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background-image: url('Appalachian_State_University_logo_2.png');
+    background-repeat: no-repeat;
+    background-position:20px bottom;
+    background-attachment:fixed;
+}
+figure {
+position:absolute;
+right: 0px;
+top: 125px;
+}
+img {
+    height:150px;
+}
+
+section,footer,nav {
+border-style: solid;
+border-width: 1px 0px 0px 0px;
+}
+
+.nav li{
+ display: inline;
+ margin-right:10px;
+  
+}
+
+

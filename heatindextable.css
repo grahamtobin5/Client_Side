@@ -1,0 +1,45 @@
+
+.extreme {
+     background-color: FireBrick;
+    
+}
+
+.danger {
+    background-color: red;
+
+}
+
+.caution {
+    background-color: DarkOrange;
+}
+
+.ok {
+
+    background-color:orange;
+}
+
+.temp {
+    background-color:cyan;
+    width:50px;
+}
+
+.humid {
+    
+    background-color:lightgreen;
+}
+
+table
+{
+    border-collapse:collapse;
+}
+td {
+    width: 75px;
+    height: 30px;
+    border : 2px solid white;
+ 
+}
+
+.center {
+    text-align: center;
+    margin-left:200px;
+}

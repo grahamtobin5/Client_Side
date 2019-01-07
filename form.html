@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+	<title>Boone Weather Conditions</title>
+	<meta charset="UTF-8">
+	<link href="weather.css" rel="stylesheet">
+	<script src= "http://code.jquery.com/jquery-3.3.1.min.js"></script>	
+	<script src="form.js"></script>   
+</head>
+    <body>
+	<h1>Current Weather Conditions</h1>
+	<table>
+		<tr>
+			<td>Location</td>
+			<form action = "http://student2.cs.appstate.edu/crr/3440/OtherExamples/RWCCurrentConditions.php" method = "get"> 
+				<td><input type = "text" name = "station" id = "station" value = "1"></input></td>
+			</form> 
+		</tr>
+		<tr class = "zebra">
+			<td>Time</td> 
+			<td  id="weatherDate"></td>
+		</tr>
+		<tr>
+			<td>Temperature</td>
+			<td id="weatherTemperature"></td>
+		</tr>
+		<tr class = "zebra">
+			<td>Today's High</td>
+			<td id="weatherHigh"></td>
+		</tr>
+		<tr>
+			<td>Today's Low</td>
+			<td id="weatherLow"></td>
+		</tr>
+		<tr class = "zebra">
+			<td>Humidity</td> 
+			<td  id="weatherHumidity"></td>
+		</tr>
+			<td>Rain Today</td>
+			<td id="weatherRain"></td>
+		</tr>
+		<tr class = "zebra">
+			<td>Wind speed</td>
+			<td  id="weatherWindspeed"></td>
+		</tr>
+	</table>
+    </body>
+</html> 

@@ -1,0 +1,21 @@
+ul {
+    list-style-image: url("arrow.gif");
+
+}
+
+ul.menu > li {
+    display:inline;
+    padding:10px;
+    border-left:solid 2px;
+    margin:20px;
+    font-family: sans-serif;
+    color:black;
+}
+ul.menu > li:hover {
+    color: rgba(255,0,255,.6);
+}
+
+li.last {
+    margin: 10px;
+    border-right: solid 2px;
+}
